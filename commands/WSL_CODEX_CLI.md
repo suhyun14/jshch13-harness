@@ -33,6 +33,17 @@ cp -n jshch13-harness/templates/HANDOFF.md docs/HANDOFF.md
 
 ### Git 확인과 기록
 
+커밋 작성자 이름과 이메일을 전역 설정하려면 아래 명령을 한 번 실행합니다. 따옴표 안 값은 본인 정보로 바꾸세요.
+
+```bash
+git config --global user.name "본인 이름"
+git config --global user.email "GitHub에 등록한 이메일"
+git config --global --get user.name
+git config --global --get user.email
+```
+
+이 설정은 모든 로컬 저장소의 커밋 작성자 정보에 사용됩니다. GitHub 로그인이나 원격 저장소 인증을 대신하지는 않습니다.
+
 ```bash
 git status --short         # 변경 파일 확인
 git diff -- README.md      # 파일 변경 내용 확인
