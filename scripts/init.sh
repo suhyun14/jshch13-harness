@@ -19,7 +19,7 @@ else
 fi
 
 mkdir -p docs
-for f in AGREEMENT DECISIONS VERIFICATION HANDOFF; do
+for f in AGREEMENT DECISIONS VERIFICATION HANDOFF STUDY_GUIDE; do
   if [ ! -f "docs/$f.md" ]; then
     cp "$KIT/templates/$f.md" "docs/$f.md"
     echo "[+] docs/$f.md"
