@@ -38,6 +38,7 @@ docs/AGREEMENT.md와 docs/HANDOFF.md를 읽고, 서비스의 대상·핵심 가�
 - 폰트: Noto Sans KR + Space Grotesk
 - 금지: 그라데이션 배경, 이모지, 둥근 카드, 보라색, 실제 기업 로고·이름
 - 좁은 화면에서도 줄바꿈되는 반응형, 버튼 44px 이상
+- 예시자료는 jshch13-harness/design/example.html 파일을 참고
 ```
 **확인할 것:** 정리한 서비스 내용이 문서와 맞는지, 색 값과 흰 배경과 분위기가 맞는지. 여기서 톤이 정해지면 뒤 단계는 거의 자동으로 따라온다.
 
